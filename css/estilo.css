@@ -1,0 +1,189 @@
+/*
+* 
+* @author Guilherme Souza GSDev
+*/
+
+html, body, #home{
+	
+	height:100%;
+}
+
+.33{
+	color:snow;
+}
+
+
+
+body {
+	background: url('../imagens/khan2.gif') no-repeat rgb(30,144,255) ;
+	background-position:top center;
+	font-family: Helvetica, sans-serif;
+	height:600px;
+	
+}
+
+
+
+.intro{
+	border:groove 5px #FFD700;
+	border-radius:7px;
+	height:430px;
+	
+}
+
+nav.navbar-transparente{
+	padding:15px 0px;
+	background: rgba(0,0,0,0.6);
+	
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#9bf0e1;
+}
+
+.drop{
+	color:snow;
+	
+}
+
+.drop:hover{
+	color:#9bf0e1;
+}
+
+.divisor {
+	width:1px;
+	background:white;
+	margin:12px 15px;
+}
+
+.capa{
+	text-align:center;
+	
+}
+
+.descricao{
+	font-family:Verdana, sans-serif;
+	color:	#f8f8f8;
+	
+}
+
+.btn-custom{
+	color:#fffad4;
+	border-radius:100px;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	text-transform:uppercase;
+	transition:background 0.6s, color 0.6s;
+	padding:8px 15px;
+	margin:20px 10px;
+}
+
+.btn-exetcion{
+	padding:8px 70px;
+	
+	
+}
+
+.btn-cor{
+	
+	background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+	background: linear-gradient(to bottom, #faa600, #f68a00);
+	
+}
+
+.cor2{
+	background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+	background: linear-gradient(to bottom, #faa600, #f68a00);
+	padding:5px;
+	font-size:15px;
+}
+
+.cor2:hover{
+	color:snow;
+	background:gold
+}
+
+.btn-cor:hover{
+	color:snow;
+	background:gold;
+}
+
+/***Conteudos***/
+
+#servico{
+	background:white;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#recursos{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#recursos h2, h3, .bug{
+	color:#ffee52;
+}
+
+.paragrafo{
+	color:snow;
+}
+
+#servico h2, h3{
+	color: #0797ff;
+}
+
+.albuns{
+	padding:10px 0;
+}
+
+h2{
+	font-size:3em;
+	font-weight: 700;
+	letter-spacing:-0.04em;
+}
+
+h3{
+	font-size: 2em;
+	font-weight:700;
+	letter-spacing:-0.04em;
+}
+
+footer{
+	background:#000;
+	padding:50px 0px 20px 0px;
+	position:relative;
+}
+
+footer h4 {
+	color:#919496;
+	font-size:0.8em;
+	text-transform:uppercase;
+}
+
+footer .navbar-nav a{
+	color:white;
+	font-size:0.8em;
+}
+
+footer .navbar-nav a:hover{
+	color:#9bf0e1;
+	text-decoration:none;
+}
+
+footer ul {
+	list-style:none;
+}
+
+footer ul  li{
+	float:right;
+	margin:0px 5px;
+}
